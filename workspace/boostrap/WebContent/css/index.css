@@ -9,9 +9,10 @@ header {
 
 .navbar {
 	margin-top: 30px;
+	margin-bottom: 7px;
 }
 	
-	ul.nav a:hover {
+	ul.navbar-nav a:hover {
 		background-color: #f0ad4e !important;
 		transi
 	}
@@ -20,3 +21,8 @@ header {
 	padding-top: 15px;
 }
 
+ul.nav-pills li:first-child {
+	position: relative;
+	display: block;
+	padding: 10px 15px 10px 0px;
+}
