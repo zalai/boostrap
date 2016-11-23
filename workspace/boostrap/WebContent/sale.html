@@ -10,9 +10,11 @@
 
 <link rel="stylesheet" href="css/index.css"/>
 <link rel="stylesheet" media="all" href="css/media.css">
+<link rel="stylesheet" media="all" href="css/style.css">
 
 <script type="text/javascript" src="js/jquery-1.12.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 </head>
 <body>
 	<header>
@@ -35,7 +37,7 @@
 			<div class="row">
 				<div class="col-md-3">
 					<a href="http://banmypham.vn/">
-						<img src="images/logo.png" alt="banmypham.vn">
+						<img src="images/system/logo.png" alt="banmypham.vn">
 					</a>
 				</div>
 				<div class="col-md-7">
@@ -87,19 +89,41 @@
 				</div>
 		</nav>
 
-	<!--  -->
-	
-		<ul class="nav nav-pills">
-			<li role="presentation">Tìm kiếm nhanh</li>
-			<li role="presentation"><a href="#">Mỹ phẩm</a></li>
-			<li role="presentation"><a href="#">Trang điểm</a></li>
-			<li role="presentation"><a href="#">Dưỡng da</a></li>
-			<li role="presentation"><a href="#">Chăm sóc tóc</a></li>
-			<li role="presentation"><a href="#">Chăm sóc móng</a></li>
-			<li role="presentation"><a href="#">Nước</a></li>
-			<li role="presentation"><a href="#">Son môi</a></li>
-			<li role="presentation"><a href="#">Phấn má hồng</a></li>
-		</ul>
+		<!-- Tab header -->
+		<div class="main-tab">
+			<ul class="tabs">
+				<li class="tab-link current" data-tab="tab-1"><i class="fa fa-check-square-o"></i>TRANG ĐIỂM </li>
+				<li class="tab-link" data-tab="tab-2"><i class="fa fa-check-square-o"></i> KEM LÓT </li>
+				<li class="tab-link" data-tab="tab-3"><i class="fa fa-check-square-o"></i> MASCARA </li>
+				<li class="tab-link" data-tab="tab-4"><i class="fa fa-check-square-o"></i> SON MÔI</li>
+				<li class="tab-link" data-tab="tab-5"><i class="fa fa-check-square-o"></i> NƯỚC HOA</li>
+				<li class="tab-link" data-tab="tab-6"><i class="fa fa-check-square-o"></i>SỮA TẮM</li>
+				<li class="tab-link" data-tab="tab-7"><i class="fa fa-check-square-o"></i> Kem Massage</li>
+				<li class="tab-link" data-tab="tab-8"><i class="fa fa-check-square-o"></i> dưỡng da</li>
+			</ul>
+			
+			<!-- Tab content -->
+			<div id="tab-1" class="tab-content procuct current">
+				<ul>
+					<li class="box wow fadeInDown animated animated"
+						style="visibility: visible; animation-name: fadeInDown;">
+						<div class="demo6">
+							<a
+								href="http://banmypham.vn/my-pham/trang-diem/phu-kien-trang-diem/bong-phan-tan-kem-nen-hinh-bau-duc-suri.html"><img
+								src="http://banmypham.vn/upload/photo/e328-d2.jpg" width="250"
+								alt="Bông phấn tán kem nền hình bầu dục SURI"
+								title="Bông phấn tán kem nền hình bầu dục SURI"></a>
+						</div>
+						<div class="title-product">
+							<a
+								href="http://banmypham.vn/my-pham/trang-diem/phu-kien-trang-diem/bong-phan-tan-kem-nen-hinh-bau-duc-suri.html">Bông
+								phấn tán kem nền hình bầu dục SURI</a>
+						</div>
+						<div class="bad-code">Mã sản phẩm : E328</div>
+						<div class="price">Giá bán : 26.000 VNĐ</div>
+					</li>
+				</ul>
+			</div>
 	</div>
 
 </body>

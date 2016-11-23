@@ -7,6 +7,7 @@ header {
 	margin-top: 15px;
 }
 
+/*Top menu*/
 .navbar {
 	margin-top: 30px;
 	margin-bottom: 7px;
@@ -17,12 +18,82 @@ header {
 		transi
 	}
 
+/* Search menu */
 .search {
 	padding-top: 15px;
 }
 
+/* For quick search */
 ul.nav-pills li:first-child {
 	position: relative;
 	display: block;
 	padding: 10px 15px 10px 0px;
 }
+
+/* Tab content */
+.tab-content {
+	border: 1px solid #ddd;
+	border-top: 0px solid white;
+}
+
+ul.tabs {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	border-bottom: 1px #f041de solid;
+}
+	ul.tabs li.current {
+		background: #f041de;
+		color: #FFF;
+	}
+	
+	ul.tabs li {
+		background: none;
+		color: #777;
+		display: inline-block;
+		padding: 13px 24px;
+		cursor: pointer;
+		transition: 0.4s all;
+		font-size: 14px;
+		font-family: arial;
+		text-transform: uppercase;
+		position: relative;
+	}
+	
+	.fa {
+		display: inline-block;
+		font: normal normal normal 14px/1 FontAwesome;
+		font-size: inherit;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	
+	li.tab-link.current:after {
+		content: "";
+		border-style: solid;
+		border-width: 8px;
+		height: 1px;
+		position: absolute;
+		width: 1px;
+		z-index: 999999999;
+		border-color: #f041de transparent transparent transparent;
+		bottom: -18px;
+		opacity: 1;
+		left: 44%;
+	}
+	
+	li.tab-link:after {
+		content: "";
+		border-style: solid;
+		border-width: 8px;
+		height: 1px;
+		position: absolute;
+		width: 1px;
+		z-index: 999999999;
+		border-color: #ff4081 transparent transparent transparent;
+		opacity: 0;
+		bottom: 2px;
+		transition: 0.4s all ease 0s;
+		left: 44%;
+	}
