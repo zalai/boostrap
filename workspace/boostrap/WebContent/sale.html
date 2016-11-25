@@ -7,6 +7,7 @@
 
 <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css"/>
 <link rel="stylesheet" href="css/bootstrap/bootstrap-theme.min.css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
 
 <link rel="stylesheet" href="css/index.css"/>
 <link rel="stylesheet" href="css/animate.css">
@@ -22,8 +23,9 @@
 
 </head>
 <body>
-	<header>
-		<div class="container">
+	<div class="container">
+		<!-- Header top -->
+		<header>
 			<div class="row">
 				<div class="col-md-6 col-sm-12 hidden-sm hidden-xs">
 					Chào mừng bạn đến với banmypham.vn
@@ -33,12 +35,10 @@
 				</div>
 			</div>
 			<hr>
-		</div>
-	</header>
-
-	<!-- Search -->
-	<div class="search">
-		<div class="container">
+		</header>
+	
+		<!-- Search -->
+		<div class="search">
 			<div class="row">
 				<div class="col-md-3">
 					<a href="http://banmypham.vn/">
@@ -64,10 +64,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<!-- nav bar -->
-	<div class="container">
+		<!-- Top menu -->
 		<nav class="navbar navbar-default">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header hidden-sm hidden-md hidden-lg">
@@ -94,6 +92,13 @@
 				</div>
 		</nav>
 
+		<!-- Break crum -->
+		<ol class="breadcrumb">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Library</a></li>
+			<li class="active">Data</li>
+		</ol>
+
 		<!-- New product -->
 		<div id="slider-news" class="slider-featured clear">
 			<h1 class="product-title">
@@ -116,7 +121,7 @@
 								phấn tán kem nền hình bầu dục SURI</a>
 						</div>
 						<div class="bad-code">Mã sản phẩm : E328</div>
-						<div class="price">Giá bán : 26.000 VNĐ</div>
+						<div class="price" >Giá bán : 26.000 VNĐ</div>
 					</li>
 					
 										<li class="box wow fadeInDown animated"
@@ -246,6 +251,11 @@
 		</div>
 
 	<!-- New product header tab -->
+	<div class="product">
+		<h1 class="product-title">
+			<span>SẢN PHẨM bán chạy</span>
+		</h1>
+	</div>
 	<div class="main-tab">
 		<ul class="tabs">
 			<li class="tab-link current" data-tab="tab-1"><i
@@ -283,12 +293,16 @@
 							href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg">Bông
 							phấn tán kem nền hình bầu dục SURI</a>
 					</div>
-					<div class="bad-code">Mã sản phẩm : E328</div>
+					<!-- <div class="bad-code">Mã sản phẩm : E328</div> -->
 					<div class="price">Giá bán : 26.000 VNĐ</div>
+					<div class="add-card">
+						<button class="btn" data-toggle="modal" data-target="#myModal">
+							<i class="fa fa-shopping-cart"></i>Thêm vào giỏ
+						</button>
+					</div>
 				</li>
 			</ul>
-
-			<ul>
+						<ul>
 				<li class="box wow fadeInDown animated"
 					style="visibility: visible; animation-name: fadeInDown;">
 					<div class="demo6">
@@ -303,11 +317,16 @@
 							href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg">Bông
 							phấn tán kem nền hình bầu dục SURI</a>
 					</div>
-					<div class="bad-code">Mã sản phẩm : E328</div>
+					<!-- <div class="bad-code">Mã sản phẩm : E328</div> -->
 					<div class="price">Giá bán : 26.000 VNĐ</div>
+					<div class="add-card">
+						<button class="btn" data-toggle="modal" data-target="#myModal">
+							<i class="fa fa-shopping-cart"></i>Thêm vào giỏ
+						</button>
+					</div>
 				</li>
 			</ul>
-			<ul>
+						<ul>
 				<li class="box wow fadeInDown animated"
 					style="visibility: visible; animation-name: fadeInDown;">
 					<div class="demo6">
@@ -322,11 +341,16 @@
 							href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg">Bông
 							phấn tán kem nền hình bầu dục SURI</a>
 					</div>
-					<div class="bad-code">Mã sản phẩm : E328</div>
+					<!-- <div class="bad-code">Mã sản phẩm : E328</div> -->
 					<div class="price">Giá bán : 26.000 VNĐ</div>
+					<div class="add-card">
+						<button class="btn" data-toggle="modal" data-target="#myModal">
+							<i class="fa fa-shopping-cart"></i>Thêm vào giỏ
+						</button>
+					</div>
 				</li>
 			</ul>
-			<ul>
+						<ul>
 				<li class="box wow fadeInDown animated"
 					style="visibility: visible; animation-name: fadeInDown;">
 					<div class="demo6">
@@ -341,11 +365,16 @@
 							href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg">Bông
 							phấn tán kem nền hình bầu dục SURI</a>
 					</div>
-					<div class="bad-code">Mã sản phẩm : E328</div>
+					<!-- <div class="bad-code">Mã sản phẩm : E328</div> -->
 					<div class="price">Giá bán : 26.000 VNĐ</div>
+					<div class="add-card">
+						<button class="btn" data-toggle="modal" data-target="#myModal">
+							<i class="fa fa-shopping-cart"></i>Thêm vào giỏ
+						</button>
+					</div>
 				</li>
 			</ul>
-			<ul>
+						<ul>
 				<li class="box wow fadeInDown animated"
 					style="visibility: visible; animation-name: fadeInDown;">
 					<div class="demo6">
@@ -360,11 +389,16 @@
 							href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg">Bông
 							phấn tán kem nền hình bầu dục SURI</a>
 					</div>
-					<div class="bad-code">Mã sản phẩm : E328</div>
+					<!-- <div class="bad-code">Mã sản phẩm : E328</div> -->
 					<div class="price">Giá bán : 26.000 VNĐ</div>
+					<div class="add-card">
+						<button class="btn" data-toggle="modal" data-target="#myModal">
+							<i class="fa fa-shopping-cart"></i>Thêm vào giỏ
+						</button>
+					</div>
 				</li>
 			</ul>
-			<ul>
+						<ul>
 				<li class="box wow fadeInDown animated"
 					style="visibility: visible; animation-name: fadeInDown;">
 					<div class="demo6">
@@ -379,11 +413,16 @@
 							href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg">Bông
 							phấn tán kem nền hình bầu dục SURI</a>
 					</div>
-					<div class="bad-code">Mã sản phẩm : E328</div>
+					<!-- <div class="bad-code">Mã sản phẩm : E328</div> -->
 					<div class="price">Giá bán : 26.000 VNĐ</div>
+					<div class="add-card">
+						<button class="btn" data-toggle="modal" data-target="#myModal">
+							<i class="fa fa-shopping-cart"></i>Thêm vào giỏ
+						</button>
+					</div>
 				</li>
 			</ul>
-			<ul>
+						<ul>
 				<li class="box wow fadeInDown animated"
 					style="visibility: visible; animation-name: fadeInDown;">
 					<div class="demo6">
@@ -398,31 +437,18 @@
 							href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg">Bông
 							phấn tán kem nền hình bầu dục SURI</a>
 					</div>
-					<div class="bad-code">Mã sản phẩm : E328</div>
+					<!-- <div class="bad-code">Mã sản phẩm : E328</div> -->
 					<div class="price">Giá bán : 26.000 VNĐ</div>
+					<div class="add-card">
+						<button class="btn" data-toggle="modal" data-target="#myModal">
+							<i class="fa fa-shopping-cart"></i>Thêm vào giỏ
+						</button>
+					</div>
 				</li>
 			</ul>
-			<ul>
+						<ul>
 				<li class="box wow fadeInDown animated"
 					style="visibility: visible; animation-name: fadeInDown;">
-						<div class="demo6">
-							<a
-								href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg"><img
-								src="http://banmypham.vn/upload/photo/MCR SURI BabyDoll-d2.jpg"
-								width="250" alt="Bông phấn tán kem nền hình bầu dục SURI"
-								title="Bông phấn tán kem nền hình bầu dục SURI"></a>
-						</div>
-						<div class="title-product">
-							<a
-								href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg">Bông
-								phấn tán kem nền hình bầu dục SURI</a>
-						</div>
-						<div class="bad-code">Mã sản phẩm : E328</div>
-						<div class="price">Giá bán : 26.000 VNĐ</div>
-					</li>
-				</ul>
-			<ul>
-				<li class="box wow fadeInDown animated">
 					<div class="demo6">
 						<a
 							href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg"><img
@@ -435,15 +461,147 @@
 							href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg">Bông
 							phấn tán kem nền hình bầu dục SURI</a>
 					</div>
-					<div class="bad-code">Mã sản phẩm : E328</div>
+					<!-- <div class="bad-code">Mã sản phẩm : E328</div> -->
 					<div class="price">Giá bán : 26.000 VNĐ</div>
+					<div class="add-card">
+						<button class="btn" data-toggle="modal" data-target="#myModal">
+							<i class="fa fa-shopping-cart"></i>Thêm vào giỏ
+						</button>
+					</div>
 				</li>
 			</ul>
+						<ul>
+				<li class="box wow fadeInDown animated"
+					style="visibility: visible; animation-name: fadeInDown;">
+					<div class="demo6">
+						<a
+							href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg"><img
+							src="http://banmypham.vn/upload/photo/MCR SURI BabyDoll-d2.jpg"
+							width="250" alt="Bông phấn tán kem nền hình bầu dục SURI"
+							title="Bông phấn tán kem nền hình bầu dục SURI"></a>
+					</div>
+					<div class="title-product">
+						<a
+							href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg">Bông
+							phấn tán kem nền hình bầu dục SURI</a>
+					</div>
+					<!-- <div class="bad-code">Mã sản phẩm : E328</div> -->
+					<div class="price">Giá bán : 26.000 VNĐ</div>
+					<div class="add-card">
+						<button class="btn" data-toggle="modal" data-target="#myModal">
+							<i class="fa fa-shopping-cart"></i>Thêm vào giỏ
+						</button>
+					</div>
+				</li>
+			</ul>
+						<ul>
+				<li class="box wow fadeInDown animated"
+					style="visibility: visible; animation-name: fadeInDown;">
+					<div class="demo6">
+						<a
+							href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg"><img
+							src="http://banmypham.vn/upload/photo/MCR SURI BabyDoll-d2.jpg"
+							width="250" alt="Bông phấn tán kem nền hình bầu dục SURI"
+							title="Bông phấn tán kem nền hình bầu dục SURI"></a>
+					</div>
+					<div class="title-product">
+						<a
+							href="http://banmypham.vn/upload/photo/E320_CoDanhKemNenSIeuMinSURI-d2.jpg">Bông
+							phấn tán kem nền hình bầu dục SURI</a>
+					</div>
+					<!-- <div class="bad-code">Mã sản phẩm : E328</div> -->
+					<div class="price">Giá bán : 26.000 VNĐ</div>
+					<div class="add-card">
+						<button class="btn" data-toggle="modal" data-target="#myModal">
+							<i class="fa fa-shopping-cart"></i>Thêm vào giỏ
+						</button>
+					</div>
+				</li>
+			</ul>
+			
 		</div>
 	</div>
+	<div class="clear"></div>
 	<footer>
+		<hr style="width:70%">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 text-center wow bounceInRight animated">
+				<form method="post">
+					<div class="form-group">
+						<div class="input-group">
+							<input type="email" class="form-control" id="input-mail" placeholder="Nhập email để nhận thông tin sản phấm mới">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="submit">Đăng ký</button>
+							</span>
+						</div><!-- /input-group -->
+					</div>
+				</form>
+			</div>
+		</div>
 		
+		<div class="row">
+			<div class="footer-info">
+				<div class="col-md-3 wow bounceInUp clearfix animated">
+					<h4 class="title_block">Danh mục sản phẩm</h4>
+					<ul>
+						<li><a href="#">Trang điểm</a></li>
+						<li><a href="#">Dưỡng da</a></li>
+						<li><a href="#">Chăm sóc móc</a></li>
+						<li><a href="#">Cạo lông</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 wow bounceInUp clearfix animated">
+					<h4 class="title_block">Bài viết mới</h4>
+					<ul>
+						<li><a href="#">Trang điểm</a></li>
+						<li><a href="#">Dưỡng da</a></li>
+						<li><a href="#">Chăm sóc móc</a></li>
+						<li><a href="#">Cạo lông</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 wow bounceInUp clearfix animated">
+					<h4 class="title_block">Hỗ trợ khách hàng</h4>
+					<ul>
+						<li><a href="#">Trang điểm</a></li>
+						<li><a href="#">Dưỡng da</a></li>
+						<li><a href="#">Chăm sóc móc</a></li>
+						<li><a href="#">Cạo lông</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-3 wow bounceInUp clearfix animated">
+					<h4 class="title_block">Liên hệ với tôi</h4>
+					<ul>
+						<li>Địa chỉ: 165 Hoàn Diệu, Tân bình, TP HCM</li>
+						<li>Phone: 21220200220</li>
+						<li>Email: tantrung@gmail.com</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<p class="text-right wow bounceInUp clearfix animated" style="color: white">© 2016 Zota Nguyễn - 01667.260.463</p>
 	</footer>
-</div>
+	<!-- Modal -->
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-lg">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Modal Header</h4>
+				</div>
+				<div class="modal-body">
+					<p>Some text in the modal.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	</div>
 </body>
 </html>

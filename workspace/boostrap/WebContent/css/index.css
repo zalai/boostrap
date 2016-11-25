@@ -17,10 +17,12 @@ header {
 	margin-top: 30px;
 	margin-bottom: 7px;
 }
-	
+	ul.navbar-nav a {
+		transition: 0.4s all;
+	}
+
 	ul.navbar-nav a:hover {
 		background-color: rgba(240, 65, 222, 0.57) !important;
-		transi
 	}
 
 /* Search menu */
@@ -35,10 +37,15 @@ ul.nav-pills li:first-child {
 	padding: 10px 15px 10px 0px;
 }
 
+/* Bread crum */
+.breadcrumb {
+	background-color: rgba(245, 245, 245, 0.48) !important;
+}
+
 /* Tab content */
 .tab-content {
 	border: 1px solid #ddd;
-	border-top: 0px solid white;
+	border-bottom: 1px solid white;
 }
 
 ul.tabs {
@@ -188,7 +195,20 @@ ul.tabs {
 	color: #f041de;
 	font-weight: bold;
 	text-align: center;
+	padding-bottom: 10px;
 }
+.add-card {
+	text-align: center;
+	font-size: 12px;
+}
+	.add-card .btn{
+		background-color: rgba(240, 65, 222, 0.52) !important;
+		transition: .3s all;
+		color: white;
+	}
+	.add-card .btn:hover{
+		background-color: rgba(240, 65, 222, 0.75) !important;
+	}
 
 /* New product */
 .slider-featured {
@@ -204,6 +224,10 @@ ul.tabs {
 
 .clear {
 	clear: both;
+}
+
+.product{
+	margin-bottom: 20px;
 }
 
 h1.product-title {
@@ -309,3 +333,55 @@ a.buttons.prev {
 a.buttons.next {
 	float: right;
 }
+
+/* footer */
+footer{
+	margin-top: 0px;
+	padding: 25px 10px 10px 10px;
+	background: #f041de; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(white, #f041de);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, #f041de);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, #f041de);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, #f041de); /* Standard syntax */
+}
+
+hr{
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+footer {
+	border: 1px solid #ddd;
+	border-top: 0px solid white;
+}
+footer ul {
+		padding: 0px;
+		
+	}
+
+	footer ul li {
+		padding: 7px 0;
+	}
+
+	footer ul li a {
+		text-decoration: none;
+		transition: .3s all;
+	}
+	
+footer ul li a:hover {
+		padding-left: 10px;
+	}
+	
+	.footer-info {
+		padding: 25px;
+	}
+
+	.footer-info .title_block {
+		text-transform: uppercase;
+	}
+
