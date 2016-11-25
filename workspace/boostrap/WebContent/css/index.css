@@ -44,8 +44,8 @@ ul.nav-pills li:first-child {
 
 /* Tab content */
 .tab-content {
-	border: 1px solid #ddd;
-	border-bottom: 1px solid white;
+	/* border: 1px solid #ddd;
+	border-bottom: 1px solid white; */
 }
 
 ul.tabs {
@@ -63,7 +63,7 @@ ul.tabs {
 		background: none;
 		color: #777;
 		display: inline-block;
-		padding: 13px 24px;
+		padding: 13px 23px;
 		cursor: pointer;
 		transition: 0.4s all;
 		font-size: 14px;
@@ -339,13 +339,16 @@ footer{
 	margin-top: 0px;
 	padding: 25px 10px 10px 10px;
 	background: #f041de; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(white, #f041de);
+	background: -webkit-linear-gradient(white, rgba(240, 65, 222, 0.76));
 	/* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(white, #f041de);
+	background: -o-linear-gradient(white, rgba(240, 65, 222, 0.76));
 	/* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(white, #f041de);
+	background: -moz-linear-gradient(white, rgba(240, 65, 222, 0.76));
 	/* For Firefox 3.6 to 15 */
-	background: linear-gradient(white, #f041de); /* Standard syntax */
+	background: linear-gradient(white, rgba(240, 65, 222, 0.76)); /* Standard syntax */
+	
+	/* 	border: 1px solid #ddd;
+	border-top: 0px solid white; */
 }
 
 hr{
@@ -355,10 +358,7 @@ hr{
 		rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-footer {
-	border: 1px solid #ddd;
-	border-top: 0px solid white;
-}
+
 footer ul {
 		padding: 0px;
 		
