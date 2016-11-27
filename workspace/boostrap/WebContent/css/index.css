@@ -1,4 +1,6 @@
-
+body {
+	/* background-color: rgba(252, 248, 227, 0.83); */
+}
 ol, ul {
 	list-style: none;
 }
@@ -44,8 +46,7 @@ ul.nav-pills li:first-child {
 
 /* Tab content */
 .tab-content {
-	/* border: 1px solid #ddd;
-	border-bottom: 1px solid white; */
+	
 }
 
 ul.tabs {
@@ -131,12 +132,13 @@ ul.tabs {
 }
 	
 	.procuct ul {
-		margin-top: 28px;
+		margin-top: 20px;
+		padding: 0px;
 	}
 
 	.procuct>ul>li {
 		float: left;
-		width: 202px;
+		width: 213px;
 		height: 350px;
 		position: inherit;
 		margin: 0px 15px 15px 0px;
@@ -202,12 +204,13 @@ ul.tabs {
 	font-size: 12px;
 }
 	.add-card .btn{
-		background-color: rgba(240, 65, 222, 0.52) !important;
+		background-color: rgba(240, 65, 222, 0.98) !important;
 		transition: .3s all;
 		color: white;
 	}
 	.add-card .btn:hover{
-		background-color: rgba(240, 65, 222, 0.75) !important;
+		background-color: rgba(59, 38, 236, 0.6) !important;
+		color: black;
 	}
 
 /* New product */
@@ -385,3 +388,23 @@ footer ul li a:hover {
 		text-transform: uppercase;
 	}
 
+/* Detail product */
+.detail-info ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+	.detail-info ul label {
+		width: 100px;
+	}
+
+	.detail-info ul .form-control {
+		display: inline;
+		width: auto;
+	}
+
+	.detail-info ul .price-detail span{
+		font-weight: bold;
+		color: red;
+		font-size: 25px;
+	}
