@@ -394,6 +394,10 @@ footer ul li a:hover {
 	padding: 0px;
 }
 
+	.detail-info li {
+		padding: 5px 0px;
+	}
+
 	.detail-info ul label {
 		width: 100px;
 	}
